@@ -2,7 +2,6 @@
   "name": "movie-lib",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://weslleycastro.github.io/movielib",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
