@@ -1,0 +1,38 @@
+#navbar {
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #121212;
+  box-shadow: 0px 3px 10px #f7d4544b;
+}
+
+#navbar input {
+  padding: 7px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+#navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#navbar button {
+  background-color: #f7d354;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 4px;
+  padding: .3rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  cursor: pointer;
+  transition: .4s;
+}
+
+#navbar button:hover {
+  background-color: transparent;
+  color: #f7d354;
+}
