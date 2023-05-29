@@ -9,6 +9,7 @@ import {
 
 import MovieCard from "../components/MovieCard"
 import "./Movie.css"
+import Loading from "../components/Loading"
 
 
 const moviesUrl = import.meta.env.VITE_API
@@ -41,6 +42,7 @@ function Movie() {
   }, [])
     return ( 
       <div className="movie-page">
+          {movie == null && <Loading/>}
           {movie && (
           <>
             <MovieCard movie={movie} showLink={false}/>

@@ -1,0 +1,24 @@
+footer {
+  background-color: #121212;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  justify-content: center;
+  color: white;
+  margin-bottom: 4px;
+}
+
+footer ul svg {
+  font-size: 1.3rem;
+  color: white;
+}
+
+footer .info {
+  font-size: 0.6rem;
+  color: rgb(158, 157, 157);
+}

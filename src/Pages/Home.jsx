@@ -20,9 +20,7 @@ function Home() {
 
   useEffect(() => {
     const topRatedUrl = `${moviesUrl}top_rated?${apiKey}`
-    const timer = setTimeout(() => {
       getTopRatedMovies(topRatedUrl)
-    }, 1200)
   }, [])
 
   return ( 

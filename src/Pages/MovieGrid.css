@@ -71,3 +71,15 @@
   color: #f7d354;
   text-shadow: 0px 5px 10px #f7d45454;
 }
+
+@media (max-width: 500px){
+
+  
+  .movies-container{
+    flex-direction: column;
+  }
+
+  .movies-container div{
+    width: 100%;
+  }
+}

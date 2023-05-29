@@ -36,3 +36,9 @@
   background-color: transparent;
   color: #f7d354;
 }
+
+@media (max-width: 500px){
+  #navbar {
+    padding: 1.5rem 1rem;
+  }
+}

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { useSearchParams } from "react-router-dom"
+import Loading from "../components/Loading"
 import MovieCard from "../components/MovieCard"
 import "./MovieGrid.css"
 
@@ -30,8 +31,8 @@ function Search() {
       <div className="container">
         <h2 className="title">Resultados para: <span className="query-text">{query}</span>
         </h2>
+        {movies.length === 0 && <Loading/>}
       <div className="movies-container">
-        {movies.length === 0 && <p>Carregando...</p>}
         {movies.length > 0 && movies.map((movie) => <MovieCard  key={movie.id} movie={movie}/>)}
       </div>
     </div> 

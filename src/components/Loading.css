@@ -11,11 +11,10 @@
 
 .loading {
   margin: 5rem auto;
-  width: 150px;
-  height: 150px;
-  border: 20px solid #121212;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #121212;
   border-bottom-color: #f7d354;
   border-radius: 50%;
-  animation: rotate 1.5s linear infinite;
-
+  animation: rotate 0.8s linear infinite;
 }
